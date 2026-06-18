@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="author" content="RadioTEP" />
+   <meta name="description" content="RadioTep merupakan komunitas yang berada di bawah naungan Himpunan Mahasiswa Program Studi S1 Teknologi Pendidikan, Universitas Negeri Malang." />
+   <meta name="keywords" content="teknologi pendidikan, jurusan teknologi pendidikan, kuliah teknologi pendidikan, teknologi pendidikan UM, media pembelajaran digital, mahasiswa teknologi pendidikan, prodi teknologi pendidikan UM, RadioTEP, fakultas ilmu pendidikan, pembelajaran berbasis teknologi" />
+   <meta name="robots" content="index, follow" />
+   <link rel="canonical" href="https://radiotepfm.web.id/" />
+   <title>Our Team - RadioTEP</title>
+   <meta property="og:title" content="Our Team - RadioTEP | Your Edutainment Station" />
+   <meta property="og:description" content="RadioTep merupakan komunitas yang berada di bawah naungan Himpunan Mahasiswa Program Studi S1 Teknologi Pendidikan, Universitas Negeri Malang." />
+   <meta property="og:image" content="https://radiotepfm.web.id/assets/img/teknologi-pendidikan-cover.jpg" />
+   <meta property="og:url" content="https://radiotepfm.web.id/" />
+   <meta property="og:type" content="article" />
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:title" content="Our Team - RadioTEP | Your Edutainment Station" />
+   <meta name="twitter:description" content="RadioTep merupakan komunitas yang berada di bawah naungan Himpunan Mahasiswa Program Studi S1 Teknologi Pendidikan, Universitas Negeri Malang." />
+   <meta name="twitter:image" content="https://radiotepfm.web.id/" />
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet" />
+   <link rel="shortcut icon" href="assets/img/favicon.svg" />
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="assets/css/all.min.css" />
+   <link rel="stylesheet" href="assets/css/animate.css" />
+   <link rel="stylesheet" href="assets/css/icomoon.css" />
+   <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+   <link rel="stylesheet" href="assets/css/meanmenu.css" />
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="assets/css/nice-select.css" />
+   <link rel="stylesheet" href="assets/css/color.css" />
+   <link rel="stylesheet" href="assets/css/main.css" />
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <style>
+      .filter-button-wrapper {
+         overflow-x: auto;
+         -webkit-overflow-scrolling: touch;
+         margin: 0 auto;
+         text-align: center;
+         padding: 1rem 0;
+      }
+      .filter-scroll {
+         display: inline-flex;
+         gap: 12px;
+         padding: 8px 15px;
+         overflow-x: auto;
+         white-space: nowrap;
+         justify-content: center;
+      }
+      .filter-btn {
+         flex: 0 0 auto;
+         padding: 12px 24px;
+         border: none;
+         background: #f1f1a1;
+         border-radius: 30px;
+         font-size: 15px;
+         cursor: pointer;
+         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+         will-change: transform, background, box-shadow;
+         transform-origin: center;
+      }
+      .filter-btn:hover {
+         transform: scale(1.05) translateZ(0);
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      }
+      .filter-btn.active {
+         background: #1e2a48;
+         color: #ffffb0;
+         transform: scale(1.08) translateZ(0);
+         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      }
+      .team-card {
+         transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+         will-change: opacity, transform;
+      }
+      .team-card.hide {
+         opacity: 0;
+         transform: scale(0.95) translateZ(0);
+         pointer-events: none;
+         position: absolute;
+      }
+      .team-wrapper {
+         position: relative;
+         min-height: 400px;
+         padding: 20px 0;
+      }
+      .thumb {
+         position: relative;
+         overflow: hidden;
+         border-radius: 12px;
+         transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .thumb img {
+         width: 100%;
+         height: auto;
+         transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .thumb:hover img {
+         transform: scale(1.08);
+      }
+      .insta-overlay {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 30px;
+         color: white;
+         background: rgba(30, 42, 72, 0.9);
+         padding: 15px;
+         border-radius: 50%;
+         opacity: 0;
+         transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+         cursor: pointer;
+      }
+      .thumb:hover .insta-overlay {
+         opacity: 1;
+         transform: translate(-50%, -50%) scale(1.1);
+      }
+   </style>
+</head>
+<body>
+
+   <!-- Preloader Start -->
+   <div id="preloader" class="preloader">
+      <div class="animation-preloader">
+         <div class="logo-container">
+            <img src="assets/img/radiotep.png" alt="Logo" class="preloader-logo">
+         </div>
+      </div>
+   </div>
+
+   <!-- Back To Top Start -->
+   <button id="back-top" class="back-to-top">
+      <i class="fa-regular fa-arrow-up"></i>
+   </button>
+
+   <!-- Offcanvas Area Start -->
+   <div class="fix-area">
+      <div class="offcanvas__info">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__content">
+               <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                  <div class="offcanvas__logo">
+                     <a href="/">
+                        <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                     </a>
+                  </div>
+                  <div class="offcanvas__close">
+                     <button aria-label="Tutup menu samping">
+                        <i class="fas fa-times"></i>
+                     </button>
+                  </div>
+               </div>
+               <h3 class="offcanvas-title">About Us</h3>
+               <p>Your Edutainment Station</p>
+               <div class="social-icon d-flex align-items-center">
+                  <a href="https://www.instagram.com/radiotepfm/">
+                     <span class="sr-only">Instagram Radio Tep FM</span>
+                     <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://open.spotify.com/show/2tJ9Q0FGAN2W1GIWCl0iLv?si=8ec34807ee364ee4">
+                     <span class="sr-only">Spotify Radio Tep FM</span>
+                     <i class="fab fa-spotify"></i>
+                  </a>
+                  <a href="https://www.youtube.com/@RADIOTEPOFFICIAL/videos">
+                     <span class="sr-only">YouTube Radio Tep FM</span>
+                     <i class="fab fa-youtube"></i>
+                  </a>
+               </div>
+               <div class="mobile-menu fix mb-3"></div>
+               <div class="offcanvas__contact">
+                  <h3>Information</h3>
+                  <ul class="contact-list">
+                     <li><span>Address:</span> Jl. Semarang 5 Malang, 65145 Malang, Indonesia</li>
+                     <li><span>Contact Person:</span> <a href="tel:+6281334094037">+62 813 3409 4037</a></li>
+                     <li><span>Email:</span> <a href="mailto:radiotep.office@gmail.com">radiotep.office@gmail.com</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="offcanvas__overlay"></div>
+
+   <!-- Header Section Start -->
+   <header id="header-sticky" class="header-1 header-3">
+      <div class="container-fluid">
+         <div class="mega-menu-wrapper">
+            <div class="header-main">
+               <div class="logo">
+                  <a href="/" class="header-logo">
+                     <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                  </a>
+               </div>
+               <div class="mean__menu-wrapper">
+                  <div class="main-menu">
+                     <nav id="mobile-menu">
+                        <ul>
+                           <li><a href="/">Home</a></li>
+                           <li><a href="/majalah-radio-tep">Mario</a></li>
+                           <li><a href="/programs">Programs</a></li>
+                           <li><a href="/team">Team</a></li>
+                           <li><a href="/contact">Contact</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <div class="header-right d-flex justify-content-end align-items-center">
+                  <div class="header-button">
+                     <a href="/contact" class="theme-btn border-white">
+                        <span class="icon-1"><img src="assets/img/icon/10.svg" alt="img"></span>
+                        get in touch
+                        <span class="icon-2"><img src="assets/img/icon/11.svg" alt="img"></span>
+                     </a>
+                  </div>
+                  <div class="header__hamburger d-xl-none my-auto">
+                     <div class="sidebar__toggle">
+                        <div class="header-bar">
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <div id="smooth-wrapper">
+      <div id="smooth-content">
+
+         <!-- Breadcrumb-wrapper Start -->
+         <div class="breadcrumb-wrapper bg-cover breadcrumb-team">
+            <div class="container">
+               <div class="page-heading">
+                  <div class="breadcrumb-sub-title">
+                     <h1 class="wow fadeInUp" data-wow-delay=".3s">Our Team</h1>
+                  </div>
+                  <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                     <li><a href="/"><i class="fa-regular fa-house"></i> Home</a></li>
+                     <li><i class="fa-solid fa-slash-forward"></i></li>
+                     <li>Our Team</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <!-- Team Section Start -->
+         <section class="team-section fix section-padding">
+            <div class="container">
+               <!-- Filter Buttons -->
+               <div class="filter-button-wrapper mb-5">
+                  <div class="filter-scroll">
+                     <button class="filter-btn active" data-filter="all">All</button>
+                     <button class="filter-btn" data-filter="png">Pengurus</button>
+                     <button class="filter-btn" data-filter="pr">Public Relation</button>
+                     <button class="filter-btn" data-filter="pd">Program Director</button>
+                     <button class="filter-btn" data-filter="it">Information Technology</button>
+                  </div>
+               </div>
+               <div class="row g-4 team-wrapper">
+                  <!-- PR - Pengurus -->
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card png wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/01.webp" alt="Agita Khairunissa">
+                           <a href="https://instagram.com/agita.kh" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Agita Khairunissa</h3>
+                           <p>Direktur</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card png wow fadeInUp" data-wow-delay=".4s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/02.webp" alt="Navila Al Husna R">
+                           <a href="https://instagram.com/naavilaar" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Navila Al Husna R</h3>
+                           <p>Sekertaris</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- IT -->
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".6s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/03.webp" alt="Danish Mirza Y">
+                           <a href="https://instagram.com/danishzzaa" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Danish Mirza Y</h3>
+                           <p>Manager IT</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- PD -->
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".8s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/04.webp" alt="Ailsa Vanie S">
+                           <a href="https://instagram.com/Vanie.sy" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Ailsa Vanie S</h3>
+                           <p>Manager PD</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- PR -->
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/05.webp" alt="Hikma Amelia">
+                           <a href="https://instagram.com/hkmaamell" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Hikma Amelia</h3>
+                           <p>Manager PR</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- PD - Anggota -->
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/6.webp" alt="Fitriya">
+                           <a href="https://instagram.com/fietriya_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Fitriya</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/7.webp" alt="Suharti">
+                           <a href="https://instagram.com/hrtii___" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Suharti</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/8.webp" alt="Olivia Novena W">
+                           <a href="https://instagram.com/olivia.novenaa" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Olivia Novena W</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/9.webp" alt="Hilya Sabrina RNA">
+                           <a href="https://instagram.com/sbrina.rn" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Hilya Sabrina RNA</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/10.webp" alt="Adinda Juwita TH">
+                           <a href="https://instagram.com/adindajwtth_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Adinda Juwita TH</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/11.webp" alt="Imelda Rosiana">
+                           <a href="https://instagram.com/imelrosii" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Imelda Rosiana</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/12.webp" alt="Helmiah Maulidiyah">
+                           <a href="https://instagram.com/helmiahmldy_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Helmiah Maulidiyah</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/13.webp" alt="Zharifah Maulidina">
+                           <a href="https://instagram.com/ifazarr_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Zharifah Maulidina</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/14.webp" alt="Arzagy Ibagaza V.">
+                           <a href="https://instagram.com/arzagyy" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Arzagy Ibagaza V.</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pd wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/15.webp" alt="Diva Misgianti">
+                           <a href="https://instagram.com/dvmsgiant27" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Diva Misgianti</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- IT - Anggota -->
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/16.webp" alt="Karina Agustia">
+                           <a href="https://instagram.com/krnagstia_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Karina Agustia</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/46.webp" alt="Fajar Dini W">
+                           <a href="https://instagram.com/fajardiniwulandari" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Fajar Dini W</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/17.webp" alt="Shevanya Claudia M">
+                           <a href="https://instagram.com/shevanyacla" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Shevanya Claudia M</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/18.webp" alt="M. Haikal FAH">
+                           <a href="https://instagram.com/haikalcngl_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>M. Haikal FAH</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/19.webp" alt="Dita Citra O">
+                           <a href="https://instagram.com/octawoopie" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Dita Citra O</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/20.webp" alt="Fitria Syahra">
+                           <a href="https://instagram.com/f.syhraaa" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Fitria Syahra</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/21.webp" alt="Septia Verlina A">
+                           <a href="https://instagram.com/bgicsva" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Septia Verlina A</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/22.webp" alt="Mufida Ryzka Y">
+                           <a href="https://instagram.com/mryzkayulia" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Mufida Ryzka Y</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/23.webp" alt="Triska Amiliya P">
+                           <a href="https://instagram.com/tsalr_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Triska Amiliya P</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/24.webp" alt="Rindu Ayu A">
+                           <a href="https://instagram.com/rndlave" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Rindu Ayu A</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/25.webp" alt="Muhammad Zulfy F">
+                           <a href="https://instagram.com/ZulfyRandoz" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Muhammad Zulfy F</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/26.webp" alt="Prilin Agustin T">
+                           <a href="https://instagram.com/prilin.ag" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Prilin Agustin T</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card it wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/27.webp" alt="Hanin Nafisah F">
+                           <a href="https://instagram.com/haninnfurry" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Hanin Nafisah F</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- PR - Anggota -->
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/28.webp" alt="Merari Else P">
+                           <a href="https://instagram.com/flels_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Merari Else P</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/29.webp" alt="Azzah Fatimatuz Z">
+                           <a href="https://instagram.com/azzaahf_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Azzah Fatimatuz Z</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/30.webp" alt="Nadia Imelda R">
+                           <a href="https://instagram.com/hellodia_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Nadia Imelda R</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/31.webp" alt="Resi Khasliati R">
+                           <a href="https://instagram.com/khasliatirhm" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Resi Khasliati R</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/32.webp" alt="Rania Yasmin K">
+                           <a href="https://instagram.com/raniaysmnkh" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Rania Yasmin K</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/33.webp" alt="Tiara Aisyah P">
+                           <a href="https://instagram.com/tiaraisyhh" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Tiara Aisyah P</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/34.webp" alt="Rahma Taufaniasari">
+                           <a href="https://instagram.com/rtaufania" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Rahma Taufaniasari</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/35.webp" alt="Zahra Aniqotul M">
+                           <a href="https://instagram.com/zhr_anq" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Zahra Aniqotul M</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/36.webp" alt="Kallista Lilian S">
+                           <a href="https://instagram.com/kllstv._" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Kallista Lilian S</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/37.webp" alt="Ulya Diana">
+                           <a href="https://instagram.com/ulyadianaa" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Ulya Diana</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/38.webp" alt="Khaila Kurnia D">
+                           <a href="https://instagram.com/_khailakurnia" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Khaila Kurnia D</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/39.webp" alt="Zafira Cindy K">
+                           <a href="https://instagram.com/zfra.cindy" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Zafira Cindy K</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/40.webp" alt="Diana Cahyaningtyas">
+                           <a href="https://instagram.com/dianazed_" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Diana Cahyaningtyas</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 team-card pr wow fadeInUp" data-wow-delay=".2s">
+                     <div class="team-card-items rotate-none mt-0">
+                        <div class="thumb">
+                           <img src="assets/img/team/41.webp" alt="Aninda Muftia C">
+                           <a href="https://instagram.com/annd_muftia" target="_blank" class="insta-overlay">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="content">
+                           <h3>Aninda Muftia C</h3>
+                           <p>Anggota Divisi</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- Footer Section Start -->
+         <footer class="footer-section fix footer-bg">
+            <div class="footer-circle-shape">
+               <img src="assets/img/footer-circle.gif" alt="img">
+            </div>
+            <div class="container custom-container">
+               <div class="footer-wrapper dark-text-style">
+                  <div class="footer-wrapper-items">
+                     <div class="footer-social-contact wow fadeInUp" data-wow-delay=".3s">
+                        <ul class="contact-list">
+                           <li><a href="mailto:radiotep.office@gmail.com">radiotep.office@gmail.com</a></li>
+                           <li><a href="tel:+6281334094037">+62 813 3409 4037</a></li>
+                        </ul>
+                        <div class="social-icon d-flex align-items-center">
+                           <a href="https://www.instagram.com/radiotepfm/" target="_blank"><i class="fab fa-instagram"></i></a>
+                           <a href="https://open.spotify.com/show/2tJ9Q0FGAN2W1GIWCl0iLv?si=8ec34807ee364ee4" target="_blank"><i class="fab fa-spotify"></i></a>
+                           <a href="https://www.youtube.com/@RADIOTEPOFFICIAL/videos" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                     </div>
+                     <div class="footer-author wow fadeInUp" data-wow-delay=".5s">
+                        <span>Designer by</span>
+                        <h4><a href="/">IT RADIOTEP 2025</a></h4>
+                     </div>
+                     <p class="wow fadeInUp" data-wow-delay=".7s">
+                        &copy;2025 <br> radiotepfm <br> all rights reserved
+                     </p>
+                  </div>
+                  <a href="/" class="exolax-text">
+                     <img src="assets/img/exolax-white.svg" alt="Beranda Radio Tep FM" class="wow img-custom-anim-bottom">
+                  </a>
+               </div>
+            </div>
+         </footer>
+
+      </div><!-- /smooth-content -->
+   </div><!-- /smooth-wrapper -->
+
+   <!-- All JS Plugins -->
+   <script src="assets/js/jquery-3.7.1.min.js"></script>
+   <script src="assets/js/viewport.jquery.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/parallax.js"></script>
+   <script src="assets/js/gsap.js"></script>
+   <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+   <script src="assets/js/gsap-scroll-smoother.js"></script>
+   <script src="assets/js/gsap-scroll-trigger.js"></script>
+   <script src="assets/js/gsap-split-text.js"></script>
+   <script src="assets/js/jquery.nice-select.min.js"></script>
+   <script src="assets/js/jquery.waypoints.js"></script>
+   <script src="assets/js/jquery.counterup.min.js"></script>
+   <script src="assets/js/swiper-bundle.min.js"></script>
+   <script src="assets/js/jquery.meanmenu.min.js"></script>
+   <script src="assets/js/jquery.magnific-popup.min.js"></script>
+   <script src="assets/js/animation.js"></script>
+   <script src="assets/js/wow.min.js"></script>
+   <script src="assets/js/customer-gsap-animation.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script>
+      document.addEventListener("DOMContentLoaded", function() {
+         var buttons = document.querySelectorAll(".filter-btn");
+         var cards = document.querySelectorAll(".team-card");
+
+         var filterCards = function(filter) {
+            cards.forEach(function(card) {
+               var shouldShow = filter === "all" || card.classList.contains(filter);
+               if (shouldShow) {
+                  card.classList.remove("hide");
+                  card.style.pointerEvents = "auto";
+               } else {
+                  card.classList.add("hide");
+                  card.style.pointerEvents = "none";
+               }
+            });
+         };
+
+         buttons.forEach(function(btn) {
+            btn.addEventListener("click", function() {
+               var filter = this.dataset.filter;
+               buttons.forEach(function(b) {
+                  b.classList.remove("active");
+               });
+               this.classList.add("active");
+               filterCards(filter);
+            });
+         });
+      });
+   </script>
+</body>
+</html>
